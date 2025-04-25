@@ -1,0 +1,148 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navbar Styling */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 20px 30px;
+  }
+  
+  .navbar .logo {
+    color: #ff7200;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #ff7200;
+  }
+  
+  /* Home Section */
+  .home-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .home-content {
+    width: 60%;
+  }
+  
+  .home-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .home-image {
+    width: 35%;
+    text-align: center;
+  }
+  
+  .home-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* About Section */
+  #about {
+    padding: 40px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  #about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  #skills h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #skills ul {
+    list-style: none;
+  }
+  
+  #skills ul li {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 40px;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  #projects h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  #projects p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  .login-button {
+    padding: 8px 16px;
+    
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
